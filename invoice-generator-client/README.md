@@ -1,12 +1,38 @@
-# React + Vite
+# 🧾 Invoice Generator (React.js + Spring Boot + Clerk + MongoDB)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **full-stack Invoice Generator web application** that allows users to create, customize, and manage invoices effortlessly.  
+It features user authentication via Clerk, multiple professional invoice templates, and PDF export functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Output
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+----
+
+## 🚀 Features
+
+- 🧠 **Full-Stack Architecture:** React.js frontend integrated with Spring Boot backend and MongoDB database.  
+- 🔐 **Clerk Authentication:** Secure login & registration for users using Clerk.  
+- 🧾 **Invoice Management:** Create, edit, and delete invoices with customer and seller details.  
+- 🎨 **Multiple Templates:** Choose from 4 unique and dynamic invoice templates.  
+- 📦 **Download as PDF:** Export generated invoices as professional PDFs using jsPDF and html2canvas.  
+- ☁️ **Persistent Storage:** All invoice data securely stored in MongoDB.  
+- ⚡ **Real-Time Calculations:** Auto-calculation of subtotal, tax (GST), and total amount.  
+- 🏦 **Company Details:** Add account details, IFSC, branch, and remarks on invoices.
+
+---
+
+## 🧠 Tech Stack
+
+| Layer | Technology |
+|--------|-------------|
+| **Frontend** | React.js, HTML, CSS, jsPDF, html2canvas |
+| **Backend** | Spring Boot (Java), REST APIs |
+| **Database** | MongoDB |
+| **Authentication** | Clerk |
+| **Tools / IDEs** | VS Code, IntelliJ IDEA, Git, GitHub |
+
+---
