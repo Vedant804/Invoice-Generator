@@ -30,6 +30,23 @@ It features user authentication via Clerk, multiple professional invoice templat
 
 ---
 
+## 🧩 Project Structure
+
+Invoice-Generator/
+├── invoice-generator-client/   # Vite + React Frontend
+│   ├── src/
+│   ├── .env
+│   ├── package.json
+│   ├── vite.config.js
+│
+├── invoicegeneratorapi/        # Spring Boot Backend
+│   ├── src/
+│   ├── pom.xml
+│
+└── README.md
+
+---
+
 ## ⚙️ Setup Instructions
 
 ### 🖥️ Clone the Repository
@@ -94,4 +111,24 @@ cd Invoice-Generator
    ```bash
    http://localhost:8080
    ```
+
+   ---
+
+## 🧾 Common Commands
+
+| Purpose | Command |
+|----------|----------|
+| Clone Repository | `git clone <repo-url>` |
+| Install Frontend Dependencies | `npm install` |
+| Start Vite Dev Server | `npm run dev` |
+| Run Backend Server | `mvn spring-boot:run` |
+| Clean Maven Build | `mvn clean install` |
+
+---
+
+## 👨‍💻 Developer
+
+**👤 Vedant Joshi**  
+💼 B.E. Artificial Intelligence & Machine Learning  
+🔗 [LinkedIn](https://www.linkedin.com/in/vedantjoshi) • [GitHub](https://github.com/Vedant804)
    
