@@ -1,0 +1,19 @@
+# === React (Frontend) ===
+invoice-generator-client/node_modules/
+invoice-generator-client/build/
+
+# === Spring Boot (Backend) ===
+invoicegeneratorapi/target/
+invoicegeneratorapi/.mvn/
+invoicegeneratorapi/mvnw
+invoicegeneratorapi/mvnw.cmd
+
+# === IDE / System Files ===
+.idea/
+.vscode/
+*.iml
+*.log
+.DS_Store
+
+# === Environment Files ===
+invoice-generator-client/.env
