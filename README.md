@@ -32,7 +32,7 @@ It features user authentication via Clerk, multiple professional invoice templat
 
 ## 🧩 Project Structure
 
-```bash
+```
 Invoice-Generator/
 ├── invoice-generator-client/   # Vite + React Frontend
 │   ├── src/
