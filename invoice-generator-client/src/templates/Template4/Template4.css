@@ -1,0 +1,175 @@
+.template4-container {
+  max-width: 850px;
+  background: #f9fbfd;
+  margin: 2rem auto;
+  border-radius: 14px;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+  color: #2d2d2d;
+}
+
+/* HEADER */
+.template4-header {
+  display: flex;
+  align-items: stretch;
+  background: #fff;
+  border-bottom: 3px solid #0078d4;
+}
+
+.template4-accent {
+  width: 10px;
+  background: linear-gradient(180deg, #0078d4, #0a6fc2);
+}
+
+.template4-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1.8rem 2rem;
+}
+
+.template4-company h2 {
+  color: #0078d4;
+  margin: 0.2rem 0;
+}
+
+.template4-title {
+  font-size: 2.3em;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.template4-logo {
+  max-height: 75px;
+  border-radius: 8px;
+  background: #f1f5fb;
+  padding: 5px;
+}
+
+/* META INFO */
+.template4-meta {
+  display: flex;
+  justify-content: space-between;
+  background: #eef4fb;
+  padding: 0.8rem 2rem;
+  font-size: 1.05em;
+  color: #333;
+}
+
+/* GRID SECTIONS */
+.template4-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+}
+
+.template4-card {
+  flex: 1;
+  background: #fff;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.05);
+}
+
+.template4-card h3 {
+  color: #0078d4;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+/* TABLE */
+.template4-table-wrap {
+  padding: 0 2rem 1.5rem 2rem;
+}
+
+.template4-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.template4-table th, .template4-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.template4-table th {
+  background: #0078d4;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.template4-table tr:nth-child(even) td {
+  background: #f6f9fc;
+}
+
+/* TOTALS */
+.template4-totals {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+.template4-total-card {
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.06);
+}
+
+.template4-total-card div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4rem 0;
+}
+
+.template4-grand-total {
+  font-weight: 700;
+  font-size: 1.2em;
+  border-top: 2px solid #0078d4;
+  margin-top: 0.6rem;
+  padding-top: 0.6rem;
+  color: #0078d4;
+}
+
+/* FOOTER */
+.template4-footer {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 1.5rem 2rem 2rem;
+}
+
+.template4-footer .template4-card {
+  flex: 1;
+  background: #f8fbff;
+  border-left: 4px solid #0078d4;
+}
+
+/* RESPONSIVE */
+@media (max-width: 720px) {
+  .template4-meta {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+  .template4-header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .template4-grid, .template4-footer {
+    flex-direction: column;
+  }
+  .template4-total-card {
+    width: 100%;
+  }
+}

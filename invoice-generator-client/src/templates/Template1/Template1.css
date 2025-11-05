@@ -1,0 +1,104 @@
+.template1-simple {
+  max-width: 720px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 18px #e7eaf0;
+  padding: 1.5rem 1rem 2rem 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+.template1-header {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+.template1-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #eaeaea;
+}
+.template1-company {
+  font-size: 1.35em;
+  font-weight: bold;
+  color: #374151;
+}
+.template1-address, .template1-phone {
+  font-size: 1em;
+  color: #7d879c;
+}
+
+.template1-invoice-meta {
+  display: flex;
+  gap: 2rem;
+  font-size: 1em;
+  margin-bottom: 1.3rem;
+  color: #516181;
+}
+
+.template1-bill-ship {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.template1-bill-ship > div {
+  background: #f7fafd;
+  border-radius: 5px;
+  padding: 1rem;
+  flex: 1;
+  font-size: 1em;
+  color: #3b4252;
+}
+.template1-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0 1rem 0;
+}
+.template1-table th, .template1-table td {
+  border: 1px solid #eaeaea;
+  padding: 0.5em 0.7em;
+  text-align: left;
+  font-size: 1em;
+}
+.template1-table th {
+  background: #e6eafe;
+  color: #374151;
+  font-weight: bold;
+}
+.template1-table td {
+  background: #fff;
+  color: #2b2c33;
+}
+
+.template1-totals {
+  text-align: right;
+  margin: 1.2rem 0;
+  font-size: 1.06em;
+}
+
+.template1-bank {
+  background: #f5faff;
+  padding: 1rem;
+  margin-bottom: 1.1rem;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #22577a;
+}
+
+.template1-remarks {
+  background: #fff7e7;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 8px #e8bc7a30;
+  font-size: 1em;
+  color: #7a4310;
+}
+.template1-remarks h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1em;
+  color: #c45d0f;
+}

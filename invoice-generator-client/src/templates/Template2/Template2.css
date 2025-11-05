@@ -1,0 +1,184 @@
+/* Container */
+.t2-container {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 2rem 3rem;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border-left: 10px solid #464f59;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+
+/* Header */
+.t2-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 3px solid #464f59;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.t2-header-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.t2-logo {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+}
+
+.t2-header-left h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #464f59;
+}
+
+.t2-header-left p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.t2-header-right {
+  text-align: right;
+}
+
+.t2-header-right h2 {
+  font-size: 1.8rem;
+  color: #111;
+  margin-bottom: 0.4rem;
+  border-bottom: 2px solid #464f59;
+  display: inline-block;
+}
+
+/* Billing Section */
+.t2-billing {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.t2-billing h3 {
+  color: #464f59;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.t2-billing p {
+  margin: 0.2rem 0;
+  color: #333;
+}
+
+/* Table */
+.t2-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.8rem;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.t2-table th {
+  background: #464f59;
+  color: #fff;
+  padding: 0.7rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.t2-table td {
+  padding: 0.7rem;
+  border-bottom: 1px solid #eee;
+}
+
+.t2-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Totals */
+.t2-totals {
+  max-width: 300px;
+  margin-left: auto;
+  text-align: right;
+}
+
+.t2-totals div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.4rem 0;
+  font-weight: 500;
+}
+
+.t2-total-final {
+  margin-top: 0.6rem;
+  padding-top: 0.5rem;
+  border-top: 2px solid #464f59;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/* Bank Section */
+.t2-bank {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px dashed #464f59;
+  border-radius: 10px;
+  background: #f0f8ff;
+}
+
+.t2-bank h3 {
+  color: #464f59;
+  margin-bottom: 0.5rem;
+}
+
+/* Remarks */
+.t2-remarks {
+  margin-top: 2rem;
+}
+
+.t2-remarks h3 {
+  color: #464f59;
+  margin-bottom: 0.5rem;
+}
+
+.t2-remarks-box {
+  background: linear-gradient(135deg, #f9f9f9, #eaf3ff);
+  border-left: 5px solid #464f59;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.t2-remarks-box p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+
+/* Responsive */
+@media (max-width: 700px) {
+  .t2-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .t2-header-right {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .t2-billing {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}

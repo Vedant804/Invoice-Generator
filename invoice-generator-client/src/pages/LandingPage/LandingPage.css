@@ -1,0 +1,139 @@
+/* Enhanced Styling for Landing Page */
+
+.landing-container {
+  /* Use a viewport-height to ensure it fills the screen */
+  min-height: 100vh;
+  /* Center content perfectly */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  /* Modernized Background Gradient and subtle shadow */
+  background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 100%);
+  color: #212529;
+  padding: 40px 20px;
+  /* Smoother transition for any theme changes */
+  transition: background-color 0.3s ease;
+}
+
+.landing-content {
+  max-width: 800px; /* Slightly wider content area */
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white card effect */
+  border-radius: 15px; /* Rounded corners for a softer look */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.03); /* Elevated, subtle shadow */
+  z-index: 10; /* Ensure content is above any background elements */
+  animation: fadeInDown 1s ease-out; /* Add a subtle entrance animation */
+}
+
+/* Keyframe for content entrance animation */
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.landing-logo {
+  width: 90px; /* Slightly larger logo */
+  height: 90px;
+  margin-bottom: 25px;
+  /* Add a pulse effect to the logo to draw attention */
+  animation: logoPulse 2s infinite alternate;
+}
+
+/* Keyframe for logo pulse effect */
+@keyframes logoPulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(13, 110, 253, 0.4);
+  }
+  100% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(13, 110, 253, 0);
+  }
+}
+
+
+.landing-title {
+  font-size: 3rem; /* Larger, more impactful title */
+  font-weight: 800; /* Extra bold */
+  margin-bottom: 15px;
+  color: #1a4a9c; /* Deeper blue for better contrast */
+}
+
+.landing-title span {
+  color: #0D6EFD; /* Accent color remains for 'QuickInvoice' */
+}
+
+.landing-subtitle {
+  font-size: 1.25rem; /* Larger, easier-to-read subtitle */
+  color: #495057; /* Darker gray for better readability */
+  margin-bottom: 40px; /* More space before buttons */
+  line-height: 1.6; /* Improved line spacing */
+}
+
+.landing-buttons {
+  margin-top: 20px;
+}
+
+.landing-buttons .btn {
+  font-weight: 600; /* Bolder button text */
+  font-size: 1.05rem;
+  padding: 12px 30px; /* More substantial button padding */
+  border-radius: 50px !important; /* Extremely rounded pill shape */
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); /* Smoother, more responsive transition */
+}
+
+.landing-buttons .btn-primary {
+  background-color: #0D6EFD;
+  border-color: #0D6EFD;
+}
+
+.landing-buttons .btn-primary:hover {
+  transform: translateY(-5px); /* More pronounced lift */
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.3); /* Stronger shadow */
+  background-color: #0c63e4; /* Slightly darker on hover */
+  border-color: #0c63e4;
+}
+
+.landing-buttons .btn-outline-primary {
+  border-width: 2px; /* Thicker border for better visibility */
+}
+
+.landing-buttons .btn-outline-primary:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(13, 110, 253, 0.1);
+  background-color: #e6f0ff; /* Light background on hover */
+}
+
+
+.landing-footer {
+  position: absolute;
+  bottom: 25px; /* Slightly higher */
+  font-size: 0.85rem; /* Slightly smaller for subtlety */
+  color: #909090; /* Softer gray */
+  margin-top: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .landing-title {
+    font-size: 2.2rem;
+  }
+  .landing-subtitle {
+    font-size: 1rem;
+  }
+  .landing-buttons .btn {
+    display: block;
+    width: 100%;
+    margin-left: 0 !important;
+    margin-bottom: 15px; /* Add space between stacked buttons */
+  }
+}
