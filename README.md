@@ -5,10 +5,6 @@ It features user authentication via Clerk, multiple professional invoice templat
 
 ---
 
-##Output
-
-----
-
 ## 🚀 Features
 
 - 🧠 **Full-Stack Architecture:** React.js frontend integrated with Spring Boot backend and MongoDB database.  
@@ -35,6 +31,12 @@ It features user authentication via Clerk, multiple professional invoice templat
 ---
 
 ## ⚙️ Setup Instructions
+
+### 🖥️ Clone the Repository
+```bash
+git clone https://github.com/Vedant804/Invoice-Generator.git
+cd Invoice-Generator
+```
 
 ### 🖥️ Frontend (Vite + React.js)
 1. Open terminal and navigate to the frontend folder:
@@ -67,7 +69,7 @@ It features user authentication via Clerk, multiple professional invoice templat
 > 🏗️ The backend API was bootstrapped using [Spring Initializr](https://start.spring.io/), 
 > with dependencies for Spring Web, Spring Data MongoDB, and Lombok.
 
-### Setup Backend (Spring Boot + MongoDB)
+### 🖥️ Setup Backend (Spring Boot + MongoDB)
 
 1. Navigate to the backend folder:
    ```bash
@@ -92,3 +94,4 @@ It features user authentication via Clerk, multiple professional invoice templat
    ```bash
    http://localhost:8080
    ```
+   
