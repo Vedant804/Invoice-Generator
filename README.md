@@ -32,6 +32,7 @@ It features user authentication via Clerk, multiple professional invoice templat
 
 ## 🧩 Project Structure
 
+```bash
 Invoice-Generator/
 ├── invoice-generator-client/   # Vite + React Frontend
 │   ├── src/
@@ -44,6 +45,7 @@ Invoice-Generator/
 │   ├── pom.xml
 │
 └── README.md
+```
 
 ---
 
@@ -131,4 +133,8 @@ cd Invoice-Generator
 **👤 Vedant Joshi**  
 💼 B.E. Artificial Intelligence & Machine Learning  
 🔗 [LinkedIn](https://www.linkedin.com/in/vedantjoshi) • [GitHub](https://github.com/Vedant804)
-   
+
+---
+
+## 🪪 License
+This project is open-source and available under the **MIT License**.
