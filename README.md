@@ -1,7 +1,14 @@
 # 🧾 Invoice Generator (React.js + Spring Boot + Clerk + MongoDB)
 
+
 A **full-stack Invoice Generator web application** that allows users to create, customize, and manage invoices effortlessly.  
 It features user authentication via Clerk, multiple professional invoice templates, and PDF export functionality.
+
+---
+
+## Output
+
+https://github.com/user-attachments/assets/a0b443fa-bb18-4c2f-863f-246aaf6bbb61
 
 ---
 
